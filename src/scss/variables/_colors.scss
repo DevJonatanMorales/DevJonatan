@@ -1,0 +1,17 @@
+// 
+// Colors
+// 
+
+// Pre-state grayscale colors used in other variables
+
+$gray-800: #343a40;
+
+// Override Bootstrap color system
+
+$azul: #0A4DA6;
+$azul-claro: #0F71F2;
+
+// Override Bootstrap default state colors
+
+$primary: $azul;
+$secondary: $azul-claro;
