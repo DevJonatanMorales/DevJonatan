@@ -3,7 +3,7 @@ export const About = () => {
   const whatsappLink = `https://api.whatsapp.com/send?phone=+50377243251`;
   const linkedin ="https://www.linkedin.com/in/devjonatanmo"
   const github = "https://github.com/DevJonatanMorales"
-  const curriculum = "/DevJonatanMorales.pdf"
+  const curriculum = "/CV_JONATAN_ISAI_MORALES_ORELLANA.pdf"
 
   return (
     <>

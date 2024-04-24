@@ -5,8 +5,9 @@ import { About } from "./components/About/About.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
 import { Educacion } from "./components/Educacion/Educacion.jsx";
 import { Skills } from "./components/Skills/Skills.jsx";
+import { Projects } from "./components/Projects/Projects.jsx";
 //import { Interests } from "./components/Interests/Interests.jsx";
-import { Projects } from "./components/Projects/projects.jsx";
+
 
 function App() {
   return (
