@@ -1,5 +1,5 @@
 import logoTs from "../../assets/image/typescript.png";
-
+import reduxIcon from "../../img/redux.png";
 export const Skills = () => {
   return (
     <>
@@ -27,11 +27,19 @@ export const Skills = () => {
             <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
+            <li className="list-inline-item">
+              <img
+                src={reduxIcon}
+                alt="icono de redux toolkit"
+                className="rounded-2 p-0 mb-3"
+                style={{ width: "2.7rem", height: "2.7rem" }}
+              />
+            </li>
           </ul>
           <div className="subheading mb-3">Control de version</div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github "></i>
             </li>
             <li className="list-inline-item">
               <i className="fa-brands fa-git"></i>

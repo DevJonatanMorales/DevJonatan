@@ -1,6 +1,6 @@
 export const CardProyect = ({ img, titulo, proyectName }) => {
   return (
-    <div className="card my-1 mx-auto" style={{ width: "18rem" }}>
+    <div className="card shadow-sm my-1 mx-auto" style={{ width: "18rem" }}>
       <img
         src={img}
         className="card-img-top"
