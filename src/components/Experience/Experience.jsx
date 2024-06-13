@@ -12,7 +12,7 @@ export const Experience = () => {
             empreza="Hospital de Especialidades Nuestra Señora de La Paz"
             fecha="JUNIO 2021 - PRESENTE"
           >
-          <p>
+          <p className="lead">
           Como parte del equipo de desarrollo, desempeño el rol de Desarrollador
           Front-End especializado en React. Mi enfoque principal se centra en la
           creación de interfaces de usuario dinámicas y atractivas para

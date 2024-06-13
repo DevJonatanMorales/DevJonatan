@@ -1,9 +1,9 @@
 import { IconSolial } from "../IconSocial/IconSolial";
 export const About = () => {
   const whatsappLink = `https://api.whatsapp.com/send?phone=+50377243251`;
-  const linkedin ="https://www.linkedin.com/in/devjonatanmo"
-  const github = "https://github.com/DevJonatanMorales"
-  const curriculum = "/CV_JONATAN_ISAI_MORALES_ORELLANA.pdf"
+  const linkedin = "https://www.linkedin.com/in/devjonatanmo";
+  const github = "https://github.com/DevJonatanMorales";
+  const curriculum = "/CV_JONATAN_ISAI_MORALES_ORELLANA.pdf";
 
   return (
     <>
@@ -12,12 +12,17 @@ export const About = () => {
           <h1 className="mb-0">
             JONATAN <span className="text-secondary">MORALES</span>
           </h1>
-          <div className="subheading mb-5">
-            FRONT-END{" "}
+          <div className="subheading mb-2">
+            DESARROLLADOR FRONT-END{" "}
             <a href="mailto:name@email.com">
               developerjonatanmorales@gmail.com
             </a>
           </div>
+          <p className="mb-5">
+            <strong className="bg-success text-light px-2 py-1 rounded">
+              #OPENTOWORK
+            </strong>
+          </p>
           <p className="lead mb-5">
             Soy un apasionado desarrollador con experiencia en React, y me
             siento cómodo trabajando tanto con clases como con componentes
@@ -29,7 +34,7 @@ export const About = () => {
             experiencia de usuario. Estoy comprometido con el aprendizaje
             constante y siempre estoy buscando nuevas formas de mejorar mis
             habilidades en el mundo del desarrollo web.
-          </p>
+          </p> 
           <div className="social-icons">
             <IconSolial link={linkedin}>
               <i className="fab fa-linkedin-in"></i>

@@ -77,6 +77,11 @@ export const Nabar = () => {
             <a className="nav-link js-scroll-trigger" href="#projects">
               Proyectos
             </a>
+          </li> 
+          <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#Contact">
+              Contacto
+            </a>
           </li>
           {/* <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#Certifications">

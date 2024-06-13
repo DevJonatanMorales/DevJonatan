@@ -6,6 +6,7 @@ import { Experience } from "./components/Experience/Experience.jsx";
 import { Educacion } from "./components/Educacion/Educacion.jsx";
 import { Skills } from "./components/Skills/Skills.jsx";
 import { Projects } from "./components/Projects/Projects.jsx";
+import { Contact } from "./components/Contact/Contact.jsx";
 //import { Interests } from "./components/Interests/Interests.jsx";
 
 
@@ -19,6 +20,7 @@ function App() {
         <Educacion />
         <Skills />
         <Projects />
+        <Contact />
         {/* <Interests /> */}
       </LayoutContent>
     </>
