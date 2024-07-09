@@ -1,9 +1,9 @@
 import { IconSolial } from "../IconSocial/IconSolial";
+import cv from "../../../public/FrontEndDeveloperJonatanMorales.pdf"
 export const About = () => {
   const whatsappLink = `https://api.whatsapp.com/send?phone=+50377243251`;
   const linkedin = "https://www.linkedin.com/in/devjonatanmo";
   const github = "https://github.com/DevJonatanMorales";
-  const curriculum = "/CV_JONATAN_ISAI_MORALES_ORELLANA.pdf";
 
   return (
     <>
@@ -48,7 +48,7 @@ export const About = () => {
               <i className="fa-brands fa-whatsapp"></i>
             </IconSolial>
 
-            <IconSolial link={curriculum} downloadable>
+            <IconSolial link={cv} downloadable>
               <i className="fa-solid fa-file-arrow-down"></i>
             </IconSolial>
           </div>
